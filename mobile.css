@@ -1,0 +1,131 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    width: 103%;
+    height: 100vh;
+    background-image: url(./doctor.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.opacity {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 2vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width:700px;
+    margin-top: 2vh;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.menu li:hover {
+    height: 3vh;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 7px;
+}
+
+.menuimg {
+    width: 10%;
+    height: 4vh;
+    margin-left: 5%;
+
+}
+
+.logo {
+    height: 14vh;
+}
+
+.content {
+    position: absolute;
+    height: 60vh;
+    width: 45%;
+    background-color: red;
+    right: 0;
+    bottom: 0;
+    padding: 50px;
+}
+
+.content h1 {
+    font-size: 70px;
+}
+
+.content p {
+    color: white;
+}
+
+.content button {
+    color: white;
+    padding: 15px 40px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.div1 {
+    height: 50vh;
+    width: 300px;
+    background-color: orange;
+}
+
+.div2 {
+    height: 50vh;
+    width: 300px;
+    background-color: greenyellow;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.div3 {
+    height: 50vh;
+    width: 300px;
+    background-color: royalblue;
+}
